@@ -33,8 +33,8 @@ import io.grpc.ServerInterceptor;
 import io.grpc.ServerInterceptors;
 import io.grpc.ServerServiceDefinition;
 import lombok.extern.slf4j.Slf4j;
-import net.devh.springboot.autoconfigure.grpc.server.codec.GrpcCodec;
-import net.devh.springboot.autoconfigure.grpc.server.codec.GrpcCodecDefinition;
+import net.devh.springboot.common.codec.GrpcCodec;
+import net.devh.springboot.common.codec.GrpcCodecDefinition;
 
 /**
  * A {@link GrpcServiceDiscoverer} that searches for beans with the {@link GrpcService} and {@link GrpcCodec}

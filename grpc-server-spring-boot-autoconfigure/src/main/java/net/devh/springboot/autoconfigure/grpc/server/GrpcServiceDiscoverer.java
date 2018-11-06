@@ -19,7 +19,7 @@ package net.devh.springboot.autoconfigure.grpc.server;
 
 import java.util.Collection;
 
-import net.devh.springboot.autoconfigure.grpc.server.codec.GrpcCodecDefinition;
+import net.devh.springboot.common.codec.GrpcCodecDefinition;
 
 /**
  * An interface for a bean that will be used to find grpc services and codecs. These will then be provided to the

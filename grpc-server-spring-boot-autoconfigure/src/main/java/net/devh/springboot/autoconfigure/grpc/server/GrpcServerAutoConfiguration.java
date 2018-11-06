@@ -32,7 +32,7 @@ import brave.grpc.GrpcTracing;
 import io.grpc.Server;
 import io.grpc.services.HealthStatusManager;
 import io.netty.channel.Channel;
-import net.devh.springboot.autoconfigure.grpc.server.codec.GrpcCodecDefinition;
+import net.devh.springboot.common.codec.GrpcCodecDefinition;
 import net.devh.springboot.autoconfigure.grpc.server.security.GrpcSecurityAutoConfiguration;
 
 /**
